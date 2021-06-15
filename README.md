@@ -4,8 +4,8 @@ UQ COMP
 Machine learning is a branch of artificial intelligence concerned with the development & application of adaptive algorithms that use example data or previous experience to solve a given problem. Topics include: learning problems (e.g regression, classification, unsupervised, reinforcement) & theory, neural networks, statistical & probabilistic models, clustering, ensembles, implementation issues, applications (e.g. bioinformatics, cognitive science, forecasting, robotics, signal & image processing).
 
 ## Helpful learning resources
-• E. Alpaydin.  Introduction to Machine Learning (third edition).  MIT Press, 2014. http://www.cmpe.boun.edu.tr/~ethem/i2ml3e/
-• C. M Bishop.  Pattern Recognition and Machine Learning. Springer. 2006
+• E. Alpaydin.  Introduction to Machine Learning (third edition).  MIT Press, 2014. http://www.cmpe.boun.edu.tr/~ethem/i2ml3e/  
+• C. M Bishop.  Pattern Recognition and Machine Learning. Springer. 2006  
 • S. Marsland. Machine Learning: An Algorithmic Perspective (2nd edition). 2015
 
 # What I learned: 
