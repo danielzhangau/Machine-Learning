@@ -8,6 +8,22 @@ Machine learning is a branch of artificial intelligence concerned with the devel
 • C. M Bishop.  Pattern Recognition and Machine Learning. Springer. 2006  
 • S. Marsland. Machine Learning: An Algorithmic Perspective (2nd edition). 2015
 
+## Underfitting VS. Overfitting
+An important measurement for supervised learning algorithms, is the **generalization**, which measures how well that a model derived from the training data can predict the desired attribute of the unseen data. When we say a model is underfitting or overfitting, it implies that the model does not generalized well to the unseen data. 
+<p align="center">
+  <img src="img/underfitting.png" width="350">
+</p>  
+#### Underfitting
+An underfitting model is the one that does not fit well with the training data, i.e. significantly deviated from the ground truth.   
+One of the causes of underfitting could be that the model is over-simplified for the data, therefore it is not capable to capture the hidden relationship within the data. As one can see from the above graph No. (1), in order to separate the samples, i.e. classification, a simple linear model (a line) is not capable to clearly draw the boundary among the samples of different categories, which results in significant misclassification.  
+As a countermeasure to avoid the above cause of underfitting, one can choose an alternative algorithm that is capable to generate a more complex model from the training data set.
+
+#### Overfitting
+An overfitting model is the one that fits well with the training data, i.e. little or no error, however it does not generalized well to the unseen data.  
+Contrary to the case of underfitting, an over-complicated model that is able to fit every bit of the data, would fall into the traps of noises and errors. As one can see from the above graph No. (3), the model managed to have less misclassification in the training data, yet it is more likely that it would stumble on the unseen data.  
+Similarly with the underfitting case, to avoid the overfitting, one can try out another algorithm that could generate a simpler model from the training data set. Or more often, one stays with the original algorithm that generated the overfitting model, but adds a regularization term to the algorithm, i.e. penalizing the model that is over-complicated so that the algorithm is steered to generate a less complicated model while fitting the data.
+
+
 ## ANN study notes
 #### 什么是神经网络？
 了解神经网络的一个好方法是将它看作复合函数。你输入一些数据，它会输出一些数据。  
