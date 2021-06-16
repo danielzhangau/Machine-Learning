@@ -11,9 +11,10 @@ Machine learning is a branch of artificial intelligence concerned with the devel
 ## Underfitting VS. Overfitting
 An important measurement for supervised learning algorithms, is the **generalization**, which measures how well that a model derived from the training data can predict the desired attribute of the unseen data. When we say a model is underfitting or overfitting, it implies that the model does not generalized well to the unseen data. 
 <p align="center">
-  <img src="img/underfitting.png" width="350">
+  <img src="img/underfitting.png" width="700">
 </p>  
-#### Underfitting
+
+#### Underfitting  
 An underfitting model is the one that does not fit well with the training data, i.e. significantly deviated from the ground truth.   
 One of the causes of underfitting could be that the model is over-simplified for the data, therefore it is not capable to capture the hidden relationship within the data. As one can see from the above graph No. (1), in order to separate the samples, i.e. classification, a simple linear model (a line) is not capable to clearly draw the boundary among the samples of different categories, which results in significant misclassification.  
 As a countermeasure to avoid the above cause of underfitting, one can choose an alternative algorithm that is capable to generate a more complex model from the training data set.
